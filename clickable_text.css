@@ -14,9 +14,6 @@ p, h4 {
   padding: none;
   width: 75vw;
   max-width: 37.5em;
-  margin: auto;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
 }
 div {
   margin-top: 5%;
@@ -38,9 +35,22 @@ div {
   font-family: "Times New Roman", "Microsoft JhengHei";
 }
 h2 {
+  margin: auto;
+  width: 75vw;
+  max-width: 37.5em;
   color: #1EB9A9;
   font-family: "Garamond";
   font-size: 1.5em;
+  text-align: center;
+}
+.index {
+  text-align: center;
+  width: 70vw;
+  max-width: 30em;
+  padding-top: 1em;
+}
+.right {
+  text-align: right;
 }
 
 /* ::-webkit-scrollbar {
