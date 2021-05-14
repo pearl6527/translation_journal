@@ -37,6 +37,11 @@ div {
   background-color: #C2DFFF;
   font-family: "Times New Roman", "Microsoft JhengHei";
 }
+h2 {
+  color: #1EB9A9;
+  font-family: "Garamond";
+  font-size: 1.5em;
+}
 
 /* ::-webkit-scrollbar {
   width: 0;
