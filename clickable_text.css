@@ -1,0 +1,97 @@
+p, h4 {
+  cursor: default;
+  width: 75vw;
+  max-width: 37.5em;
+  margin: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+::selection {
+  background-color: #A4E5E0;
+}
+.legend {
+  margin: auto;
+  padding: none;
+}
+div {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: "Times New Roman", "Microsoft JhengHei";
+}
+.clickable {
+  background-color: #D4F8EA;
+  font-family: "Times New Roman", "Microsoft JhengHei";
+}
+.color2 {
+  background-color: #C1EFFD;
+  font-family: "Times New Roman", "Microsoft JhengHei";
+}
+.color3 {
+  background-color: #C2DFFF;
+  font-family: "Times New Roman", "Microsoft JhengHei";
+}
+
+/* ::-webkit-scrollbar {
+  width: 0;
+} */
+html {
+    overflow-y: scroll;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #D1DFDE;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #435356;
+  vertical-align: middle;
+}
+.topnav a {
+  float: left;
+  color: #f0f0f0;
+  text-align: center;
+  /* padding: 12px 14px; */
+  line-height: 1.3em;
+  padding: 0.6em 1em;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-family: "Garamond", "NSimSun";
+  height: 1.2em;
+}
+.topnav a:hover {
+  background-color: #DCEEEB;
+  color: black;
+}
+.topnav a.active {
+  background-color: #1EB9A9;
+  color: white;
+}
+div.topnav {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.button {
+  font-size: 13.5px;
+  margin: 2px 1.5px;
+  cursor: pointer;
+  float: right;
+  background-color: #0C6170;
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Times New Roman", "NSimSun";
+}
