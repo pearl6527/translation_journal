@@ -12,6 +12,11 @@ p, h4 {
 .legend {
   margin: auto;
   padding: none;
+  width: 75vw;
+  max-width: 37.5em;
+  margin: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 div {
   margin-top: 5%;
