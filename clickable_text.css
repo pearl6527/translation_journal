@@ -118,14 +118,13 @@ div.topnav {
 
 .home {
   font-size: 15px;
-  margin-top: 5em;
-  margin-bottom: 5em;
-  cursor: pointer;
+  /* margin-top: 5em;
+  margin-bottom: 5em; */
   /* width: 10vw;
   max-width: 37.5em; */
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
   background-color: #1EB9A9;
   position: absolute;
   left: 50%;
@@ -136,7 +135,10 @@ div.topnav {
   padding: 7px 16px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   cursor: pointer;
   font-family: "Times New Roman", "NSimSun";
+}
+.home_div {
+  padding-top: 2.5em;
+  padding-bottom: 5em;
 }
