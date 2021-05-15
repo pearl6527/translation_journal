@@ -49,6 +49,21 @@ function change_distant(texts, classname) {
     }
   }
 };
+function replace_all(options, classname, colors) {
+  // alert('。');
+  var x = document.getElementsByClassName(classname);
+  var curr = x[0].innerHTML;
+  for (let i = 0; i < options.length; i++) {
+    // alert(i);
+    if (options[i] === curr) {
+      var ind = (i + 1) % options.length;
+      for (let j = 0; j < x.length; j++) {
+        x[j].innerHTML = options[ind];
+      }
+      break;
+    }
+  }
+}
 
 document.addEventListener(
   "mousedown",
