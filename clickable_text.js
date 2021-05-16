@@ -59,6 +59,7 @@ function replace_all(options, classname, colors) {
       var ind = (i + 1) % options.length;
       for (let j = 0; j < x.length; j++) {
         x[j].innerHTML = options[ind];
+        x[j].style.backgroundColor = colors[ind];
       }
       break;
     }
