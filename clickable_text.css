@@ -48,6 +48,10 @@ h2 {
   font-size: 1.5em;
   text-align: center;
 }
+sup, sub {
+  font-size: 1em;
+  /* color: rgba(25, 198, 180, 0.7); */
+}
 .index {
   text-align: center;
   width: 70vw;
