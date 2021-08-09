@@ -5,7 +5,7 @@ Created as part of the final project for Spring 2021, LITR 348: The Practice of 
 
 \
 \
-Pearl Hwang  
+**Pearl Hwang**  
 Yale University  
-LITR 348: The Practice of Literary Translation
+LITR 348: The Practice of Literary Translation  
 May 2021
